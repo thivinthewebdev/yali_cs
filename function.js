@@ -167,6 +167,7 @@ yaliTimeline
     translateX: [textLeftX,0],
     update: function() { LeftText.innerHTML = "Architec" },
     opacity: [0.0,1],
+    color: "#6D7730",
     direction: "normal",
     duration: texttime,
     autoplay: true,
@@ -177,6 +178,7 @@ yaliTimeline
     targets:  '#rightHeading',
     translateX: [-textLeftX,0],
     update: function() { rightText.innerHTML = "ture" },
+    color: "#6D7730",
     opacity: [0.0,1],
     direction: "normal",
     duration: texttime,
@@ -346,6 +348,7 @@ yaliTimeline
     translateX: [textLeftX,0],
     update: function() { LeftText.innerHTML = "Brand" },
     opacity: [0.0,1],
+    color: "#A5271D",
     direction: "normal",
     duration: texttime,
     autoplay: true,
@@ -356,6 +359,7 @@ yaliTimeline
     targets:  '#rightHeading',
     translateX: [-textLeftX,0],
     update: function() { rightText.innerHTML = "ing" },
+    color: "#A5271D",
     opacity: [0.0,1],
     direction: "normal",
     duration: texttime,
@@ -505,6 +509,7 @@ yaliTimeline
     targets:  '#leftHeading',
     translateX: [textLeftX,0],
     update: function() { LeftText.innerHTML = "UX" },
+    color: "#AE4700",
     opacity: [0.0,1],
     direction: "normal",
     duration: texttime,
@@ -516,6 +521,7 @@ yaliTimeline
     targets:  '#rightHeading',
     translateX: [-textLeftX,0],
     update: function() { rightText.innerHTML = "UI" },
+    color: "#AE4700",
     opacity: [0.0,1],
     direction: "normal",
     duration: texttime,
@@ -623,6 +629,7 @@ yaliTimeline
 .add({
     targets:  '#leftHeading',
     update: function() { LeftText.innerHTML = "Coming" },
+    color: "#525252",
     duration: 10,
 
 })
@@ -630,6 +637,7 @@ yaliTimeline
 .add({
     targets:  '#rightHeading',
     update: function() { rightText.innerHTML = "soon" },
+    color: "#525252",
     duration: 10
 })
 
