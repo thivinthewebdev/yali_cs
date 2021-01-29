@@ -100,7 +100,7 @@ yaliTimeline
     {
         ImageObject.src = "./assets/Logo_03.png"
     },
-    duration: imageChangeTime-500,
+    duration: imageChangeTime-10,
     autoplay: true,
     easing: "easeInExpo"
 })
@@ -214,7 +214,7 @@ yaliTimeline
     {
         ImageObject.src = "./assets/AR_03.png"
     },
-    duration: imageChangeTime-500,
+    duration: imageChangeTime-10,
     autoplay: true,
     easing: "easeInExpo"
 })
@@ -225,7 +225,7 @@ yaliTimeline
     {
         ImageObject.src = "./assets/AR_04.png"
     },
-    duration: imageChangeTime-500,
+    duration: imageChangeTime-10,
     autoplay: true,
     easing: "easeInExpo"
 })
@@ -236,7 +236,7 @@ yaliTimeline
     {
         ImageObject.src = "./assets/AR_05.png"
     },
-    duration: imageChangeTime-500,
+    duration: imageChangeTime-10,
     autoplay: true,
     easing: "easeInExpo"
 })
@@ -248,7 +248,7 @@ yaliTimeline
     {
         ImageObject.src = "./assets/AR_06.png"
     },
-    duration: imageChangeTime-500,
+    duration: imageChangeTime-10,
     autoplay: true,
     easing: "easeInExpo"
 })
@@ -259,7 +259,7 @@ yaliTimeline
     {
         ImageObject.src = "./assets/AR_07.png"
     },
-    duration: imageChangeTime-500,
+    duration: imageChangeTime-10,
     autoplay: true,
     easing: "easeInExpo"
 })
@@ -271,7 +271,7 @@ yaliTimeline
     {
         ImageObject.src = "./assets/AR_08.png"
     },
-    duration: imageChangeTime-500,
+    duration: imageChangeTime-10,
     autoplay: true,
     easing: "easeInExpo"
 })
@@ -283,7 +283,7 @@ yaliTimeline
     {
         ImageObject.src = "./assets/AR_09.png"
     },
-    duration: imageChangeTime-500,
+    duration: imageChangeTime-10,
     autoplay: true,
     easing: "easeInExpo"
 })
@@ -393,7 +393,7 @@ yaliTimeline
     {
         ImageObject.src = "./assets/BR_03.png"
     },
-    duration: imageChangeTime-500,
+    duration: imageChangeTime-10,
     autoplay: true,
     easing: "easeInExpo"
 })
@@ -404,7 +404,7 @@ yaliTimeline
     {
         ImageObject.src = "./assets/BR_04.png"
     },
-    duration: imageChangeTime-500,
+    duration: imageChangeTime-10,
     autoplay: true,
     easing: "easeInExpo"
 })
@@ -415,7 +415,7 @@ yaliTimeline
     {
         ImageObject.src = "./assets/BR_05.png"
     },
-    duration: imageChangeTime-500,
+    duration: imageChangeTime-10,
     autoplay: true,
     easing: "easeInExpo"
 })
@@ -427,7 +427,7 @@ yaliTimeline
     {
         ImageObject.src = "./assets/BR_06.png"
     },
-    duration: imageChangeTime-500,
+    duration: imageChangeTime-10,
     autoplay: true,
     easing: "easeInExpo"
 })
@@ -438,7 +438,7 @@ yaliTimeline
     {
         ImageObject.src = "./assets/BR_07.png"
     },
-    duration: imageChangeTime-500,
+    duration: imageChangeTime-10,
     autoplay: true,
     easing: "easeInExpo"
 })
@@ -553,7 +553,7 @@ yaliTimeline
     {
         ImageObject.src = "./assets/UI_03.png"
     },
-    duration: imageChangeTime-500,
+    duration: imageChangeTime-10,
     autoplay: true,
     easing: "easeInExpo"
 })
@@ -564,7 +564,7 @@ yaliTimeline
     {
         ImageObject.src = "./assets/UI_04.png"
     },
-    duration: imageChangeTime-500,
+    duration: imageChangeTime-10,
     autoplay: true,
     easing: "easeInExpo"
 })
@@ -575,7 +575,7 @@ yaliTimeline
     {
         ImageObject.src = "./assets/UI_05.png"
     },
-    duration: imageChangeTime-500,
+    duration: imageChangeTime-10,
     autoplay: true,
     easing: "easeInExpo"
 })
