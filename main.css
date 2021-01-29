@@ -6,6 +6,7 @@
 body {
   background-color: #131313;
   font-size: 14px;
+  overflow-y: hidden !important;
 }
 
 body #main_Body {
@@ -44,6 +45,7 @@ body #main_Body .flexCenter {
       flex-wrap: wrap;
   width: 100%;
   height: 85vh;
+  overflow-y: hidden !important;
 }
 
 body #main_Body .flexCenter .heading {
@@ -116,7 +118,6 @@ body #main_Body #bottomFooter {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    height: 88vh;
   }
   body #main_Body .flexCenter .heading {
     font-family: 'Exo', sans-serif;

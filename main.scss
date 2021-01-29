@@ -7,6 +7,7 @@
 body{
     background-color: #131313;
     font-size: 14px;
+    overflow-y: hidden !important;
 
 #main_Body
 {
@@ -38,6 +39,7 @@ body{
         flex-wrap: wrap;
         width: 100%;
         height: 85vh;
+        overflow-y: hidden !important;
 
         
         .heading
@@ -119,7 +121,6 @@ body{
                 flex-direction: column;
                 align-items: center;
                 justify-content: center;
-                height: 88vh;
 
 
                 

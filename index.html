@@ -10,6 +10,10 @@
     <!-- Open Sans -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <!-- FAVICON -->
+    <link rel="icon" href="favi.ico" type="image/x-icon">
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <title>Yali- We do Holi</title>
 </head>
@@ -23,13 +27,13 @@
             </div>
             <!-- Webpage Body -->
             <div id="centerContent" class="flexCenter">
-                <div id="leftHeading" class="heading">
+                <div id="leftHeading" class="heading mainelem">
                     Coming
                 </div>
                 <div id="mainImage" >
-                    <img src="./assets/Logo_Main.png"></img>
+                    <img id="mainImage_inner"  class="mainelem" src="./assets/Logo_Main.png"></img>
                 </div>
-                <div id="rightHeading" class="heading">
+                <div id="rightHeading" class="heading mainelem">
                     soon
                 </div>
             </div>
@@ -44,6 +48,8 @@
             </div>
         </div>
 
-    </div>    
+    </div>  
+    <script src="anime.min.js"></script>
+    <script src="function.js"></script>
 </body>
 </html>
