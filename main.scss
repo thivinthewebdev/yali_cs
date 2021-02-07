@@ -28,6 +28,29 @@ body{
         font-size: 1rem;
         height:  4vh;
         font-family: "Space";
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 100%;
+
+        #rightNavbar
+        {
+            padding-left: 0px;
+            width: 900px;
+            #navbarList
+            {
+                padding-left: 0px;
+                li 
+                {
+                    display: inline;
+                    white-space:nowrap;
+                }
+
+            }
+        }
+        
     }
 
     .flexCenter
@@ -40,6 +63,7 @@ body{
         width: 100%;
         height: 85vh;
         overflow-y: hidden !important;
+        font-family: 'Exo', sans-serif;
 
         
         .heading
@@ -49,7 +73,7 @@ body{
             font-weight: bold;
             line-height: 128px;
             font-style: normal;
-            color: #525252;
+            color: #333333;
         }
 
         #leftHeading
@@ -67,6 +91,7 @@ body{
             img 
             {
                 padding: 20px;
+                transform: scale(0.9);
             }
         }
 
@@ -88,9 +113,21 @@ body{
         font-family: 'Open Sans', sans-serif;
         height: 5vh;
         font-weight: 400;
-        color: #fff;
+        color: #d1d1d1;
         font-size: 1rem;
+        
+        #footerLeft
+        {
+            padding-left: 20px;
+        }
+
+        #footerRight
+        {
+            padding-right: 20px;
+        }
     }
+
+
 }
 }
 
