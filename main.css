@@ -204,7 +204,7 @@ body #main_Body #page_1 #bottomFooter #footerRight {
   }
   body #main_Body #page_1 .flexCenter .heading {
     font-family: 'Exo', sans-serif;
-    font-size: 36px;
+    font-size: 48px;
     font-weight: bold;
     line-height: 128px;
     font-style: normal;
@@ -216,14 +216,23 @@ body #main_Body #page_1 #bottomFooter #footerRight {
         justify-self: center;
     height: 5vh;
     margin-top: -20vh;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
   }
   body #main_Body #page_1 .flexCenter #mainImage {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
     height: 40vh;
   }
   body #main_Body #page_1 .flexCenter #mainImage img {
     height: 100%;
   }
   body #main_Body #page_1 .flexCenter #rightHeading {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
     height: 5vh;
     -ms-grid-column-align: center;
         justify-self: center;

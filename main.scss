@@ -189,7 +189,7 @@ body{
                     .heading
                     {
                         font-family: 'Exo', sans-serif;
-                        font-size: 36px;
+                        font-size: 48px;
                         font-weight: bold;
                         line-height: 128px;
                         font-style: normal;
@@ -203,6 +203,7 @@ body{
                         justify-self: center;
                         height: 5vh;
                         margin-top: -20vh;
+                        order: 1;
                         // background-color: #ffffff;
                         
                     }
@@ -210,6 +211,7 @@ body{
                     #mainImage
                     {
                         // background-color: #ffffff;
+                        order: 3;
                         height: 40vh;
                         img 
                         {
@@ -223,6 +225,7 @@ body{
                     {
                         // padding: 20px;
                         // width: 100%;
+                        order: 2;
                         height: 5vh;
                         justify-self: center;
                         // background-color: #ffffff;
